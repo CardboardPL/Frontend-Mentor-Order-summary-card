@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./styles/general.css">
+  <link rel="stylesheet" type="text/css" href="./styles/order-summary.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -21,19 +22,25 @@
   <main>
     <article class="order-summary-card">
       <img src="./images/illustration-hero.svg" alt="Hero Illustration">
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!</p>
+      <section class="order-summary-card-content">
+        <h1>Order Summary</h1>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
 
-      <div class="product-info">
-        <img src="./images/icon-music.svg" alt="Music Icon">
-        <h3>Annual Plan</h3>
-        <span class="product-price">$59.99/year</span>
-        <button class="change-product-btn">Change</button>
-      </div>
+        <div class="product-info">
+          <div class="left-section">
+            <img src="./images/icon-music.svg" alt="Music Icon">
+            <div>
+              <h3>Annual Plan</h3>
+              <span class="product-price">$59.99/year</span>
+            </div>
+          </div>
+          <button type="button" class="change-product-btn">Change</button>
+        </div>
 
-      <button type="button" class="proceed-payment-btn">Proceed to Payment</button>
-      <button type="button" class="cancel-order-btn">Cancel Order</button>
+        <button type="button" class="proceed-payment-btn">Proceed to Payment</button>
+        <button type="button" class="cancel-order-btn">Cancel Order</button>
+      </section>
     </article>
   </main>
   
