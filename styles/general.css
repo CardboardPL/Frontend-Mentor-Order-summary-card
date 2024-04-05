@@ -15,18 +15,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 6px;
+  gap: 20px;
 
   background-color: hsl(225, 100%, 94%);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body::before {
   content: url(../images/pattern-background-desktop.svg);
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
 }
 
 main {
@@ -34,4 +35,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 375px) {
+  body::before {
+    content: url(../images/pattern-background-mobile.svg);
+  }
 }
