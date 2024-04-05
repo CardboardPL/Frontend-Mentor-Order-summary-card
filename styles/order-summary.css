@@ -4,7 +4,7 @@
   background-color: hsl(0, 0%, 100%);
   color: hsl(224, 23%, 55%);
   width: 90%;
-  max-width: 410px;
+  max-width: 400px;
   border-radius: 16px;
   margin-top: 82.5px;
   overflow: hidden;
@@ -12,14 +12,16 @@
 
 .order-summary-card > img {
   display: block;
+  width: 100%;
 }
 
 .order-summary-card-content {
-  padding: 34px;
+  padding: 48px;
 }
 
 .order-summary-card-content h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 900;
   color: hsl(223, 47%, 23%);
   margin-bottom: 1rem;
 }
