@@ -37,6 +37,12 @@ main {
   align-items: center;
 }
 
+@media (max-width: 420px) {
+  html {
+    font-size: 0.875rem;
+  }
+}
+
 @media (max-width: 375px) {
   body::before {
     content: url(../images/pattern-background-mobile.svg);
