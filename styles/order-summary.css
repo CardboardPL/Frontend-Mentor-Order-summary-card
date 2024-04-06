@@ -17,7 +17,7 @@
   background-color: hsl(0, 0%, 100%);
   color: hsl(224, 23%, 55%);
   width: 90%;
-  max-width: 26.5625rem;
+  max-width: 28.125rem;
   border-radius: 1rem;
   margin-top: 5.15625rem;
   overflow: hidden;
@@ -29,7 +29,7 @@
 }
 
 .order-summary-card-content {
-  padding: 3rem;
+  padding: 2.5rem 3rem;
 }
 
 .order-summary-card-title {
@@ -47,7 +47,7 @@
   background-color: hsl(225, 100%, 98%);
   padding: 1.25rem;
   border-radius: 0.75rem;
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1.5rem 0 1.75rem 0;
 }
 
 .product-info .left-section {
@@ -96,9 +96,9 @@
   background-color: hsl(245, 75%, 52%);
   color: hsl(0, 0%, 100%);
   width: 100%;
-  padding: 0.875em;
+  padding: 1em;
   border-radius: 0.75em;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
   box-shadow: 
     0.25rem 1rem 1.25rem hsla(225, 100%, 94%, 0.95),
     -0.25rem 1rem 1.25rem hsla(225, 100%, 94%, 0.95);
