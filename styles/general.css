@@ -48,3 +48,9 @@ main {
     content: url(../images/pattern-background-mobile.svg);
   }
 }
+
+@media (max-width: 350px) {
+  html {
+    font-size: 12px;
+  }
+}
