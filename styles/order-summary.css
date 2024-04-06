@@ -21,6 +21,7 @@
   border-radius: 1rem;
   margin-top: 5.15625rem;
   overflow: hidden;
+  box-shadow: 0 1rem 1.25rem hsla(245, 75%, 52%, 0.1);
 }
 
 .order-summary-card > img {
@@ -100,8 +101,8 @@
   border-radius: 0.75em;
   margin-bottom: 1.75rem;
   box-shadow: 
-    0.25rem 1rem 1.25rem hsla(225, 100%, 94%, 0.95),
-    -0.25rem 1rem 1.25rem hsla(225, 100%, 94%, 0.95);
+    0.25rem 1rem 1.25rem hsla(245, 75%, 52%, 0.1),
+    -0.25rem 1rem 1.25rem hsla(245, 75%, 52%, 0.1);
   transition: opacity 0.15s ease-in-out;
 }
 
