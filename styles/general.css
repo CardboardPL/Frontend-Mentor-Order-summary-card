@@ -22,14 +22,6 @@ body {
   overflow-x: hidden;
 }
 
-body::before {
-  content: url(../images/pattern-background-desktop.svg);
-  position: absolute;
-  top: -40px;
-  left: 0;
-  right: 0;
-}
-
 main {
   width: 100%;
   display: flex;
@@ -43,14 +35,8 @@ main {
   }
 }
 
-@media (max-width: 375px) {
-  body::before {
-    content: url(../images/pattern-background-mobile.svg);
-  }
-}
-
 @media (max-width: 350px) {
   html {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }

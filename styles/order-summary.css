@@ -1,3 +1,17 @@
+.desktop-background-pattern,
+.mobile-background-pattern {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.mobile-background-pattern {
+  display: none;
+}
+
 .order-summary-card {
   position: relative;
   text-align: center;
@@ -108,5 +122,13 @@
   .order-summary-card-content {
     font-size: 1.142857142857143rem;
     padding: 2.2rem;
+  }
+
+  .desktop-background-pattern {
+    display: none;
+  }
+
+  .mobile-background-pattern {
+    display: block;
   }
 }
